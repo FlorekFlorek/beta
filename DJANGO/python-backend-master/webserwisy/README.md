@@ -60,4 +60,4 @@ python manage.py runserver
 ```
 Otwieramy naszą stroną z adresem `/admin`
 
-TEST TEST
+TEST TEST2
