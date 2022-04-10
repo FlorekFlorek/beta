@@ -59,5 +59,3 @@ python manage.py createsuperuser  # podajemy dowolny mail
 python manage.py runserver
 ```
 Otwieramy naszą stroną z adresem `/admin`
-
-TEST TEST2
