@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+<p> </p>>
+<p>{{offer_description}}</p>
+
+
+{% if bike_types %}
+    <ul>
+        {% for bike_type in bike_types %}
+            <li><a href="{% url 'biketype' biketype.id %}">Rower {{bike_type.type}}</a>></li>>
+        {% endfor %}
+    </ul>
+{% else %}
+    Na razie brak rowerów
+{% endif %}
+</body>
+</html>
